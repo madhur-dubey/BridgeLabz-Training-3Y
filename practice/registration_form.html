@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form>
+        <label for="name">Name : </label><br>
+
+        <input type="text" id="name" 
+        placeholder="Enter Your Name" name="name" required>
+        <br>
+        <label for="mail">Email : </label><br>
+        <input type="email" id="mail"
+         placeholder="Enter Your Email" name="email">
+
+         <br>
+         <label for="pass">Password : </label><br>
+         <input type="password" placeholder="Enter Your Password" id="pass">
+
+         <br>
+         <label for="no">Phone Number : </label><br>
+         <input text="number" id="no" placeholder="Enter Your Phone">
+
+        <br>
+        <label for="dob">DOB : </label><br>
+        <input type="date" id="dob" > 
+        <br>
+        <label>Skill:</label><br>
+        <select name="Skill" size="3">
+            <option value="None">None</option>
+            <option value="HTML">HTML</option>
+            <option value="CSS">CSS</option>
+            <option value="JS">JS</option>
+        </select>
+        <br><br>
+        <label for="html">HTML:</label> 
+        <input type="checkbox" id="html">
+        <label for="css">Css:</label> 
+        <input type="checkbox" id="css">
+        <label for="js">JS:</label> 
+        <input type="checkbox" id="js"> 
+
+        <br>
+        <label>Gender : </label>
+        <input type="radio" name="gender">
+        <label>Male</label>
+        <input type="radio" name="gender">
+        <label>Female</label>
+        <input type="radio" name="gender">
+        <label>other</label><br>
+
+       
+        <input type="range" max="3" min="0"><br>
+        <input type="file">
+        <br><br>
+        <button type="submit">Submit</button>
+    </form>
+
+    
+</body>
+</html>
