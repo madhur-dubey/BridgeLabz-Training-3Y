@@ -1,0 +1,31 @@
+.box{
+    width:80%;
+    border:5px solid black;
+    margin:20px;
+    padding:30px;
+    background-color:skyblue;
+}
+
+.box1{
+    width:80%;
+    border:5px solid black;
+    margin:20px;
+    padding:30px;
+    background-color:yellowgreen;
+}
+
+.container{
+    width:80%;
+    border:20px solid black;
+    margin:20px;
+    padding:30px;
+    background-color:yellowgreen;
+}
+
+.box2{
+    width:80%;
+    border:20px solid black;
+    margin:20px;
+    padding:30px;
+    background-color:green;
+}
