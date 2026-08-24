@@ -1,0 +1,33 @@
+.container {
+    width: 80vw;
+    height: 100vh;
+    background-color: aqua;
+    color: whitesmoke;
+    margin: 0 auto;
+    font-size: 20px;
+    padding: 1rem;
+    border-radius: 30px;
+
+    background-image: url("../leveling.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.s{
+    text-transform:capitalize ;
+    color: antiquewhite;
+}
+
+.container p {
+    font-size: 1rem;
+    line-height: 2rem;
+}
+
+.btn {
+    background-color: rgb(0, 98, 255);
+    color: white;
+    border: none;
+    padding: 1rem;
+    border-radius: 2rem;
+}
