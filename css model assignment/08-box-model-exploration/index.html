@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Box Model Exploration</title>
+  <link rel="stylesheet" href="box-model.css">
+</head>
+<body>
+  <header><h1>CSS Box Model</h1><p>Every element is made of layers.</p></header>
+  <main>
+    <section class="model-demo">
+      <div class="margin-layer">
+        <span class="layer-label">Margin</span>
+        <div class="border-layer">
+          <span class="layer-label">Border</span>
+          <div class="padding-layer">
+            <span class="layer-label">Padding</span>
+            <div class="content-layer">Content</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="comparison">
+      <article class="default-box"><h2>Content-box</h2><p>Width applies to content only. Padding and border add to the total width.</p></article>
+      <article class="border-box"><h2>Border-box</h2><p>Width includes content, padding, and border, so sizing is easier to manage.</p></article>
+    </section>
+  </main>
+  <footer><p>Tip: many developers use box-sizing: border-box for predictable layouts.</p></footer>
+</body>
+</html>

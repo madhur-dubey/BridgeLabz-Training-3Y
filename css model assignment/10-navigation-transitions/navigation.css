@@ -1,0 +1,16 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; color: #243047; background: #f8fafc; }
+header { text-align: center; padding: 24px 16px; background: #dbeafe; }
+header h1 { margin-bottom: 4px; }
+nav { display: flex; justify-content: center; flex-wrap: wrap; background: #172554; }
+nav a { color: white; text-decoration: none; padding: 16px 24px; border-bottom: 3px solid transparent; transition: all 0.3s ease; }
+nav a:hover { background: #1d4ed8; border-bottom-color: #fbbf24; }
+nav a:active { background: #0f172a; }
+nav a.active { background: #1e40af; border-bottom-color: #fbbf24; }
+main { max-width: 900px; margin: 28px auto; padding: 0 18px; }
+main section { background: white; padding: 22px; margin-bottom: 18px; border-radius: 10px; }
+footer { text-align: center; padding: 20px; background: #172554; color: white; }
+@media (max-width: 700px) {
+  nav { flex-direction: column; }
+  nav a { text-align: center; border-bottom: 1px solid #475569; }
+}

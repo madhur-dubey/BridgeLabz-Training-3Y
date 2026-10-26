@@ -1,0 +1,11 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; text-align: center; color: #243047; background: #f8fafc; }
+header, footer { padding: 22px 14px; }
+.transform-list { display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 35px; padding: 30px 18px; }
+figure { margin: 10px; width: 150px; }
+.shape { height: 120px; display: flex; justify-content: center; align-items: center; color: white; font-weight: bold; border-radius: 12px; background: #2563eb; transition: all 0.4s ease; }
+.rotate:hover { transform: rotate(12deg); }
+.scale:hover { transform: scale(1.15); }
+.translate:hover { transform: translate(10px, -8px); }
+.skew:hover { transform: skew(8deg); }
+figcaption { margin-top: 18px; }

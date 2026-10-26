@@ -1,0 +1,9 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; color: #183044; background: #f3f8fa; }
+header, footer { text-align: center; padding: 22px 14px; }
+.size-area { min-height: 55vh; display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 20px; padding: 24px; }
+.size-box { padding: 18px; border-radius: 12px; overflow: auto; }
+.pixel { width: 180px; height: 130px; background: #ffd6a5; }
+.percent { width: 80%; max-width: 420px; min-height: 10em; background: #caffbf; }
+.viewport { width: min(90%, 300px); min-height: 18vh; max-height: 240px; background: #bdb2ff; }
+h2 { margin-top: 0; }

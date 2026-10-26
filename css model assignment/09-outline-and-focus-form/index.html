@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Outline and Focus Form</title>
+  <link rel="stylesheet" href="outline-form.css">
+</head>
+<body>
+  <header><h1>Contact Form</h1><p>Click or tab into a field to see its focus outline.</p></header>
+  <main>
+    <form>
+      <label for="name">Your name</label>
+      <input id="name" type="text" placeholder="Enter your name">
+      <label for="email">Email address</label>
+      <input id="email" type="email" placeholder="you@example.com">
+      <label for="message">Message</label>
+      <textarea id="message" rows="4" placeholder="Write your message"></textarea>
+      <button type="button">Preview Form</button>
+    </form>
+    <section class="outline-examples">
+      <p class="dotted">Dotted outline example</p>
+      <p class="offset">Outline with offset</p>
+    </section>
+  </main>
+  <footer><p>Focus styles help people navigate forms.</p></footer>
+</body>
+</html>
