@@ -1,0 +1,17 @@
+/* Google Font and simple custom Bootstrap theme */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+:root {
+  --bs-primary: #6f42c1;
+  --bs-font-sans-serif: 'Poppins', Arial, sans-serif;
+}
+body { font-family: var(--bs-font-sans-serif); color: #29233a; }
+.btn-primary { background-color: #6f42c1; border-color: #6f42c1; }
+.btn-primary:hover { background-color: #59359c; border-color: #59359c; }
+.card { border-top: 4px solid #6f42c1; }
+.site-header, .site-footer { background-color: #35205f; color: white; }
+.hero { background: #f2ecff; padding: 70px 15px; }
+.product-card, .plan-card { transition: transform 0.2s, box-shadow 0.2s; }
+.product-card:hover, .plan-card:hover { transform: translateY(-4px); box-shadow: 0 8px 18px rgba(0,0,0,0.12) !important; }
+.carousel-item img { height: 420px; object-fit: cover; }
+.carousel-caption { background: rgba(0,0,0,0.55); border-radius: 8px; padding: 10px; }
+@media (max-width: 576px) { .carousel-item img { height: 260px; } .carousel-caption p { display: none; } }
