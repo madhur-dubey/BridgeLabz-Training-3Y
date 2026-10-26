@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Pseudo-Classes</title>
+  <link rel="stylesheet" href="pseudo_classes.css">
+</head>
+<body>
+<header class="page-header">
+  <h1>CSS Pseudo-Classes</h1>
+  <p>Try hovering, focusing, and clicking the examples.</p>
+</header>
+<main class="examples">
+  <section class="example">
+    <h2>1. :hover</h2>
+    <a class="hover-link" href="#hover-info">Hover over this link</a>
+    <p id="hover-info">The :hover selector applies a style when the pointer is over an element.</p>
+  </section>
+  <section class="example">
+    <h2>2. :focus</h2>
+    <label for="focus-input">Click or tab into this input:</label>
+    <input id="focus-input" type="text" placeholder="Focus me">
+    <p>:focus highlights an element that has keyboard or input focus.</p>
+  </section>
+  <section class="example">
+    <h2>3. :active</h2>
+    <button class="active-button" type="button">Press and hold</button>
+    <p>:active styles an element while it is being activated.</p>
+  </section>
+  <section class="example">
+    <h2>4. :nth-child()</h2>
+    <ul class="color-list">
+      <li>First item</li><li>Second item</li><li>Third item</li><li>Fourth item</li>
+    </ul>
+    <p>:nth-child(odd) selects every item in an odd position.</p>
+  </section>
+</main>
+<footer><p>Practice page • HTML and CSS only</p></footer>
+</body>
+</html>

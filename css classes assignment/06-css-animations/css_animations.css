@@ -1,0 +1,11 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; text-align: center; color: #243047; background: #f4f7fb; }
+header, footer { padding: 22px; background: #213d66; color: white; }
+.animation-stage { min-height: 60vh; display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 24px; padding: 28px; }
+.animation-item { width: 250px; min-height: 240px; padding: 20px; background: white; border-radius: 12px; box-shadow: 0 4px 15px #00000012; }
+.moving-box { width: 55px; height: 55px; margin: 28px auto; border-radius: 8px; background: #3278d3; animation: moveSide 2s ease-in-out infinite alternate; }
+.ball { width: 48px; height: 48px; margin: 30px auto; border-radius: 50%; background: #ed7a44; animation: bounce 1s ease-in-out .3s infinite; }
+.color-word { margin: 30px auto; font-size: 30px; font-weight: bold; color: #7c45c4; animation: colorShift 2s ease-in-out infinite alternate; }
+@keyframes moveSide { from { transform: translateX(-45px); } to { transform: translateX(45px); } }
+@keyframes bounce { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-35px); } }
+@keyframes colorShift { from { color: #7c45c4; transform: scale(1); } to { color: #e44d77; transform: scale(1.15); } }

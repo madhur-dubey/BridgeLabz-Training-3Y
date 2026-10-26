@@ -1,0 +1,17 @@
+/* Basic page styling */
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; color: #243047; background: #f3f6fb; }
+.page-header, footer { text-align: center; padding: 22px; background: #173b67; color: white; }
+.examples { display: flex; flex-wrap: wrap; justify-content: center; gap: 18px; padding: 24px; }
+.example { flex: 1 1 220px; max-width: 280px; padding: 18px; background: white; border-radius: 12px; box-shadow: 0 3px 12px #00000012; }
+a { color: #145cc5; }
+.hover-link:hover { color: #d33d57; background: #fff0f2; }
+input { width: 100%; padding: 10px; border: 1px solid #9aa8bc; border-radius: 6px; }
+input:focus { outline: 3px solid #8fc7ff; border-color: #145cc5; }
+button { padding: 10px 14px; border: 0; border-radius: 6px; background: #145cc5; color: white; cursor: pointer; }
+.active-button:active { background: #0c2c5d; transform: scale(.96); }
+.color-list { padding-left: 22px; line-height: 1.9; }
+.color-list li:nth-child(odd) { background: #e5efff; }
+.color-list li:nth-child(even) { background: #f8e9ed; }
+footer { margin-top: 10px; }
+/* On narrow screens, the examples naturally wrap into fewer columns. */

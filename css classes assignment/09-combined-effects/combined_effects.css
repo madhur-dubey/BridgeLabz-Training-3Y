@@ -1,0 +1,10 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; color: #25344b; background: #f2f6fc; }
+header, footer { text-align: center; padding: 24px; background: #213e68; color: white; }
+.effects { display: flex; flex-wrap: wrap; justify-content: center; gap: 22px; padding: 40px 20px; }
+.effect-card { flex: 1 1 230px; max-width: 300px; padding: 25px; border-radius: 12px; background: white; border: 1px solid #e0e6ef; box-shadow: 0 3px 10px #0000000d; transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease; }
+.effect-card:hover { transform: translateY(-8px) scale(1.02); box-shadow: 0 12px 24px #173b6824; border-color: #6b9ee0; }
+.effect-card button { padding: 10px 14px; border: 0; border-radius: 7px; background: #2468bf; color: white; cursor: pointer; transition: transform .2s, background .2s; }
+.effect-card button:hover { background: #153f79; transform: scale(1.06); }
+.effect-card button:active { transform: scale(.97); }
+.effect-card button:focus-visible { outline: 3px solid #f1bc4b; outline-offset: 3px; }

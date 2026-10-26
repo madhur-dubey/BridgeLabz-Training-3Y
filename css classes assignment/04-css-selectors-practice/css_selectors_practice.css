@@ -1,0 +1,20 @@
+/* Element selector: styles every paragraph. */
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; color: #29354a; background: #f3f6fb; }
+header, footer { text-align: center; padding: 22px; background: #1e426b; color: white; }
+main { max-width: 900px; margin: 25px auto; padding: 0 18px; }
+.panel { padding: 20px; margin-bottom: 18px; background: white; border-radius: 10px; box-shadow: 0 3px 12px #00000012; }
+/* Class selector: can be reused on multiple elements. */
+.highlight { color: #a33d70; background: #fff0f6; padding: 5px; }
+/* ID selector: targets the element with this unique ID. */
+#special-title { color: #1765bd; }
+/* Attribute selector: selects links that open in a new tab. */
+a[target="_blank"] { display: inline-block; color: #145cc5; padding: 8px; border: 1px solid #145cc5; border-radius: 5px; }
+/* Descendant selector: any paragraph inside selector-demo. */
+.selector-demo p { padding: 8px; background: #f0f5ff; }
+/* Child combinator: only li elements directly inside the ul. */
+.selector-demo > ul > li { margin: 6px 0; color: #26724a; }
+/* Adjacent sibling: the first .next paragraph immediately after the list. */
+.selector-demo ul + .next { border-left: 4px solid #e5a22b; }
+/* General sibling: all paragraphs after the list at the same parent level. */
+.selector-demo ul ~ p { padding-left: 12px; }

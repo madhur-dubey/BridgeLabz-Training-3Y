@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Box-Sizing Comparison</title>
+  <link rel="stylesheet" href="box_sizing_comparison.css">
+</head>
+<body>
+<header><h1>Box-Sizing Comparison</h1><p>Compare how CSS calculates the width of a box.</p></header>
+<main>
+  <section class="comparison">
+    <article class="demo-box content-box"><h2>content-box</h2><p>Width: 250px<br>Padding: 20px each side<br>Border: 5px each side</p><strong>Total width: 300px</strong></article>
+    <article class="demo-box border-box"><h2>border-box</h2><p>Width: 250px<br>Padding and border fit inside width</p><strong>Total width: 250px</strong></article>
+  </section>
+  <p class="explanation">With <code>content-box</code>, padding and border are added to the declared width. With <code>border-box</code>, they are included in the declared width.</p>
+</main>
+<footer><p>Try resizing the page to see the boxes stack on small screens.</p></footer>
+</body>
+</html>

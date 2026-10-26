@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Selectors Practice</title>
+  <link rel="stylesheet" href="css_selectors_practice.css">
+</head>
+<body>
+<header><h1>CSS Selectors Practice</h1><p>Examples of common CSS selector types.</p></header>
+<main>
+  <section class="panel">
+    <h2>Element selector</h2><p>All paragraphs receive a basic style from the p selector.</p>
+    <h2 class="highlight">Class selector</h2><p class="highlight">This paragraph has the highlight class.</p>
+    <h2 id="special-title">ID selector</h2><p>The heading above uses a unique ID.</p>
+  </section>
+  <section class="panel">
+    <h2>Attribute selector</h2><a href="https://example.com" target="_blank">Link with target attribute</a>
+  </section>
+  <section class="panel">
+    <h2>Combinator selectors</h2>
+    <div class="selector-demo">
+      <p>Descendant: paragraph inside this box.</p>
+      <ul><li>Child selector: direct list item</li><li>Another direct item</li></ul>
+      <p class="next">Adjacent sibling: this follows the list.</p>
+      <p>General sibling: another paragraph after the list.</p>
+    </div>
+  </section>
+</main>
+<footer><p>Semantic HTML and clearly commented CSS.</p></footer>
+</body>
+</html>
