@@ -1,0 +1,8 @@
+* { box-sizing: border-box; }
+body { font-family: Arial, sans-serif; background: #eef2f7; padding: 24px; }
+.container { max-width: 480px; margin: auto; padding: 24px; background: white; border-radius: 10px; }
+label { display: block; margin-top: 14px; }
+input { width: 100%; padding: 10px; margin-top: 5px; }
+small { display: block; color: crimson; min-height: 18px; }
+button { margin-top: 16px; padding: 10px 16px; }
+#ticket { margin-top: 20px; padding: 12px; background: #e8f7ec; }

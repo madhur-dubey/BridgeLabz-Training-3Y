@@ -1,0 +1,11 @@
+/* Simple styling for the student form */
+* { box-sizing: border-box; }
+body { font-family: Arial, sans-serif; background: #f2f5f9; margin: 0; padding: 24px; }
+.container { max-width: 480px; margin: auto; padding: 24px; background: white; border-radius: 10px; }
+label { display: block; margin-top: 14px; }
+input { width: 100%; padding: 10px; margin-top: 5px; border: 2px solid #bbb; border-radius: 5px; }
+input.valid { border-color: green; }
+input.invalid { border-color: crimson; }
+small { display: block; min-height: 18px; color: crimson; }
+button { margin-top: 18px; padding: 10px 16px; cursor: pointer; }
+#result { font-weight: bold; }
