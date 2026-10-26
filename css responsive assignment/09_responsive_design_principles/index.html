@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Design Principles</title>
+  <!-- Connect this page to its own CSS file. -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="logo" href="#top">Responsive Design Principles</a>
+      <nav aria-label="Main navigation">
+        <a href="#main-content">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main-content" class="page-content">
+    <h1 class="page-title">Responsive Design Principles</h1>
+    
+<section class="principles">
+  <article><h2>Fluid Layouts</h2><p>Use flexible sizes so content can grow or shrink with the screen.</p><code>width: 100%;</code></article>
+  <article><h2>Flexible Media</h2><p>Images should stay inside their containers instead of overflowing.</p><code>img { max-width: 100%; }</code></article>
+  <article><h2>Breakpoints</h2><p>Change the layout when the screen reaches a chosen width.</p><code>@media (max-width: 600px)</code></article>
+</section>
+
+  </main>
+  <footer id="contact" class="site-footer">
+    <p>Beginner CSS Practice · Contact: hello@example.com</p>
+  </footer>
+</body>
+</html>

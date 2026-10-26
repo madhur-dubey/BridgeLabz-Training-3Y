@@ -1,0 +1,22 @@
+/* Basic page setup */
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; line-height: 1.6; color: #243044; background: #f3f6fa; }
+a { color: inherit; }
+.site-header { background: #17324d; color: white; padding: 16px 5%; }
+.header-inner { display: flex; align-items: center; justify-content: space-between; gap: 18px; flex-wrap: wrap; }
+.logo { font-size: 1.1rem; font-weight: bold; text-decoration: none; }
+nav { display: flex; gap: 16px; flex-wrap: wrap; }
+nav a { color: white; text-decoration: none; }
+nav a:hover { text-decoration: underline; }
+.page-content { width: min(1100px, 92%); margin: 30px auto; min-height: 65vh; }
+.page-title { text-align: center; margin: 0 0 28px; font-size: clamp(1.7rem, 4vw, 2.5rem); }
+.site-footer { text-align: center; background: #17324d; color: white; padding: 16px; margin-top: 35px; }
+.site-footer p { margin: 0; }
+h2 { line-height: 1.25; }
+
+.topics { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; }
+article { background: white; border-left: 5px solid #176b87; border-radius: 8px; padding: 22px; transition: transform .2s, background .2s; }
+article:hover { transform: translateY(-4px); background: #e3f5fa; }
+code { display: inline-block; overflow-wrap: anywhere; color: #8b2452; background: #f4f4f4; padding: 7px; border-radius: 5px; }
+@media (min-width: 1000px) { .topics { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+@media (max-width: 700px) { .topics { grid-template-columns: 1fr; } }

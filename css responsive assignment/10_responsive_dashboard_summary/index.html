@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Dashboard Summary</title>
+  <!-- Connect this page to its own CSS file. -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="logo" href="#top">Responsive Dashboard Summary</a>
+      <nav aria-label="Main navigation">
+        <a href="#main-content">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main-content" class="page-content">
+    <h1 class="page-title">Responsive Dashboard Summary</h1>
+    
+<div class="dashboard">
+  <aside class="sidebar"><h2>Quick Links</h2><a href="#filters">Filters</a><a href="#type">Typography</a><a href="#media">Media Queries</a><a href="#cheatsheet">Cheat Sheet</a></aside>
+  <section class="dashboard-main">
+    <article class="dash-card" id="filters"><h2>Filters</h2><p>Use CSS filter to change image appearance.</p><code>filter: grayscale(100%);</code></article>
+    <article class="dash-card" id="type"><h2>Typography</h2><p>Use clamp() to scale headings smoothly.</p><code>font-size: clamp(1rem, 3vw, 2rem);</code></article>
+    <article class="dash-card" id="media"><h2>Media Queries</h2><p>Change layout for smaller screens.</p><code>@media (max-width: 750px)</code></article>
+    <article class="dash-card" id="cheatsheet"><h2>Cheat Sheet Links</h2><p>Remember: Grid arranges rows and columns; Flexbox aligns items.</p><a href="../06_responsive_css_cheat_sheet/index.html">Open CSS cheat sheet</a></article>
+  </section>
+</div>
+
+  </main>
+  <footer id="contact" class="site-footer">
+    <p>Beginner CSS Practice · Contact: hello@example.com</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,20 @@
+/* Basic page setup */
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; line-height: 1.6; color: #243044; background: #f3f6fa; }
+a { color: inherit; }
+.site-header { background: #17324d; color: white; padding: 16px 5%; }
+.header-inner { display: flex; align-items: center; justify-content: space-between; gap: 18px; flex-wrap: wrap; }
+.logo { font-size: 1.1rem; font-weight: bold; text-decoration: none; }
+nav { display: flex; gap: 16px; flex-wrap: wrap; }
+nav a { color: white; text-decoration: none; }
+nav a:hover { text-decoration: underline; }
+.page-content { width: min(1100px, 92%); margin: 30px auto; min-height: 65vh; }
+.page-title { text-align: center; margin: 0 0 28px; font-size: clamp(1.7rem, 4vw, 2.5rem); }
+.site-footer { text-align: center; background: #17324d; color: white; padding: 16px; margin-top: 35px; }
+.site-footer p { margin: 0; }
+h2 { line-height: 1.25; }
+
+.type-demo { text-align: center; max-width: 900px; margin: 30px auto; padding: 50px 25px; background: white; border-radius: 12px; }
+h1 { font-size: clamp(1.5rem, 4vw, 3rem); }
+p { font-size: clamp(1rem, 2vw, 1.5rem); line-height: 1.7; }
+@media (max-width: 700px) { .type-demo { padding: 28px 16px; } p { line-height: 1.6; } }

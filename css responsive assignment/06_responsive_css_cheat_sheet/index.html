@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive CSS Cheat Sheet</title>
+  <!-- Connect this page to its own CSS file. -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="logo" href="#top">Responsive CSS Cheat Sheet</a>
+      <nav aria-label="Main navigation">
+        <a href="#main-content">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main-content" class="page-content">
+    <h1 class="page-title">Responsive CSS Cheat Sheet</h1>
+    
+<section class="topics">
+  <article><h2>Filters</h2><p>Change how images look.</p><code>filter: grayscale(100%);</code></article>
+  <article><h2>Media Queries</h2><p>Apply styles at certain screen widths.</p><code>@media (max-width: 700px) { ... }</code></article>
+  <article><h2>Responsive Design</h2><p>Make layouts adapt to different devices.</p><code>width: 100%;</code></article>
+  <article><h2>Typography</h2><p>Scale text to fit the screen.</p><code>font-size: clamp(1rem, 3vw, 2rem);</code></article>
+</section>
+
+  </main>
+  <footer id="contact" class="site-footer">
+    <p>Beginner CSS Practice · Contact: hello@example.com</p>
+  </footer>
+</body>
+</html>
